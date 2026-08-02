@@ -1,8 +1,25 @@
 aid: web3-foundation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/web3-foundation.png
 name: Web3 Foundation
-description: 'Web3 Foundation is a company surfaced as a portfolio company of polychain and added to the
-  API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Web3 Foundation is a Swiss nonprofit founded in 2017 by Gavin Wood
+  that funds research and development teams building the foundation of a decentralized
+  web (Web3). It stewards and supports the Polkadot and Kusama networks, operates a
+  research hub and an education/wiki program, and historically ran the Web3 Foundation
+  Grants Program (now discontinued) to seed open-source software and protocol research.
+  It is a funding and research organization rather than a traditional API provider:
+  it publishes no public REST/OpenAPI surface, but does maintain an RFC 9116 security.txt
+  and a coordinated vulnerability-disclosure program.'
 url: https://raw.githubusercontent.com/api-evangelist/web3-foundation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Infrastructure
+- Web3
+- Blockchain
+- Polkadot
+- Kusama
+- Research
+- Grants
+- Decentralization
+- Nonprofit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,26 @@ maintainers:
 common:
 - type: Website
   url: https://web3.foundation
+- type: Documentation
+  url: https://education.web3.foundation
+- type: Blog
+  url: https://medium.com/web3foundation/
+- type: GitHubOrganization
+  url: https://github.com/w3f
+- type: PrivacyPolicy
+  url: https://web3.foundation/privacy-and-cookies/
+- type: SecurityTxt
+  url: well-known/web3-foundation-security.txt
+- type: WellKnown
+  url: well-known/web3-foundation-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/web3-foundation-vulnerability-disclosure.yml
+- type: Security
+  url: https://web3.foundation/security-report/
+- type: DomainSecurity
+  url: security/web3-foundation-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

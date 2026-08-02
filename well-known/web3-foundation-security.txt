@@ -1,0 +1,6 @@
+Contact: mailto:security-report@web3.foundation
+Encryption: https://web3.foundation/pgp.asc
+Policy: https://web3.foundation/security-report/
+Expires: 2028-12-16T23:59:59Z
+Preferred-Languages: en
+Canonical: https://web3.foundation/.well-known/security.txt
